@@ -1,102 +1,202 @@
 [
   {
-    "question": "Who invented the telephone?",
+    "question": "When you have a shared document, how does OneDrive handle document versions?",
     "options": [
-      "Thomas Edison",
-      "Alexander Graham Bell",
-      "Albert Einstein",
-      "Nikola Tesla"
+      "OneDrive automatically deletes older versions to save storage space.",
+      "Each user needs to manually create versions of the document.",
+      "OneDrive saves a new version whenever changes are made, allowing users to view and restore previous versions.",
+      "Users have to download and save different versions separately."
     ],
-    "answer": "Alexander Graham Bell"
+    "answer": "OneDrive saves a new version whenever changes are made, allowing users to view and restore previous versions."
   },
   {
-    "question": "What year was the first iPhone released?",
-    "options": ["2005", "2007", "2008", "2010"],
-    "answer": "2007"
-  },
-  {
-    "question": "What is the capital of Spain?",
-    "options": ["Barcelona", "Madrid", "Valencia", "Seville"],
-    "answer": "Madrid"
-  },
-  {
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Mars", "Mercury", "Venus", "Jupiter"],
-    "answer": "Mars"
-  },
-  {
-    "question": "What is the tallest mountain in the world?",
-    "options": ["K2", "Mount Everest", "Kilimanjaro", "Mount Fuji"],
-    "answer": "Mount Everest"
-  },
-  {
-    "question": "What is the largest ocean on Earth?",
+    "question": "What option should Frederick choose to control the level of access when sharing a document with Gary on one drive?",
     "options": [
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Arctic Ocean",
-      "Pacific Ocean"
+      "Send a Copy with restricted editing options.",
+      "Can View to limit Gary's ability to edit the document.",
+      "Anyone with the link can edit for broad access.",
+      "Direct Access to enable real-time collaboration."
     ],
-    "answer": "Pacific Ocean"
+    "answer": "Can View to limit Gary's ability to edit the document."
   },
   {
-    "question": "What is the largest mammal in the world?",
-    "options": ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
-    "answer": "Blue Whale"
-  },
-  {
-    "question": "Which country is home to the kangaroo?",
-    "options": ["New Zealand", "South Africa", "Australia", "Canada"],
-    "answer": "Australia"
-  },
-  {
-    "question": "Which chemical element has the symbol 'O'?",
-    "options": ["Oxygen", "Osmium", "Oganesson", "Oxalate"],
-    "answer": "Oxygen"
-  },
-  {
-    "question": "What is the capital of Australia?",
-    "options": ["Sydney", "Melbourne", "Perth", "Canberra"],
-    "answer": "Canberra"
-  },
-  {
-    "question": "Who wrote the novel 'Moby-Dick'?",
+    "question": "Adding a button or a keyboard shortcut to a macro in Microsoft Word will help to ___________________________.",
     "options": [
-      "Herman Melville",
-      "Mark Twain",
-      "Ernest Hemingway",
-      "Charles Dickens"
+      "eliminate the need to create a macro.",
+      "create complex code for programming tasks.",
+      "replace existing buttons so you can make your own tab.",
+      "save time and streamline your workflow."
     ],
-    "answer": "Herman Melville"
+    "answer": "save time and streamline your workflow."
   },
   {
-    "question": "Who was the first man to walk on the moon?",
+    "question": "Harley is working on a file that she is using to record her monthly expenses. She would like her spreadsheet to be able to add up and display the grand total of how much she has spent this month on eating out. She can do this simply in Excel by _______________________.",
     "options": [
-      "Buzz Aldrin",
-      "Neil Armstrong",
-      "Michael Collins",
-      "Yuri Gagarin"
+      "doing mental math",
+      "making use of the SUBTOTAL function",
+      "using the TotalSum feature",
+      "downloading a template that will allow her to automatically display the grand total of a list of values"
     ],
-    "answer": "Neil Armstrong"
+    "answer": "making use of the SUBTOTAL function"
   },
   {
-    "question": "In which year did World War II end?",
-    "options": ["1942", "1945", "1948", "1950"],
-    "answer": "1945"
-  },
-  {
-    "question": "What is the square root of 144?",
-    "options": ["12", "14", "16", "18"],
-    "answer": "12"
-  },
-  {
-    "question": "Which is the highest waterfall in the world?",
+    "question": "What is the primary advantage of using search folders in Outlook?",
     "options": [
-      "Niagara Falls",
-      "Victoria Falls",
-      "Angel Falls",
-      "Iguazu Falls"
+      "Search folders allow you to sort your emails by sender or recipient.",
+      "Search folders automatically delete emails that match specific criteria.",
+      "Search folders provide an easy way to view emails based on predefined search criteria without the need for repeated manual searches.",
+      "Search folders prevent flagged emails from appearing in your inbox."
     ],
-    "answer": "Angel Falls"
+    "answer": "Search folders provide an easy way to view emails based on predefined search criteria without the need for repeated manual searches."
+  },
+  {
+    "question": "What is the file extension for an Outlook email template?",
+    "options": [
+      ".oft",
+      ".ost",
+      ".pst",
+      ".msg"
+    ],
+    "answer": ".oft"
+  },
+  {
+    "question": "Ramy has created a PowerPoint slideshow. During her review, she noticed that each slide had a different layout. Which tool will assist her in making consistent changes throughout her presentation?",
+    "options": [
+      "Edit Slides",
+      "Slide Master",
+      "Unify Slides",
+      "Constant Content"
+    ],
+    "answer": "Slide Master"
+  },
+  {
+    "question": "Which of the following choices is NOT a Media Playback option in PowerPoint?",
+    "options": [
+      "Present Online",
+      "Add Bookmark",
+      "Fade Duration",
+      "Loop Until Stopped"
+    ],
+    "answer": "Present Online"
+  },
+  {
+    "question": "Which of the following features is NOT available in the Microsoft Teams mobile app?",
+    "options": [
+      "Participating in video meetings and screen sharing",
+      "Editing Office documents within the app",
+      "Scheduling meetings and sending meeting invitations",
+      "Accessing and managing team channels and chats"
+    ],
+    "answer": "Editing Office documents within the app"
+  },
+  {
+    "question": "How can you quickly join a Teams meeting from your mobile device?",
+    "options": [
+      "Open the Teams app and tap on the \"Join\" button in the bottom navigation bar",
+      "Search for the meeting in your calendar and tap on the \"Join\" link",
+      "Ask a colleague to share the meeting link, which you can then open in the Teams app",
+      "Both a and b are correct ways to join a Teams meeting from your mobile device"
+    ],
+    "answer": "Both a and b are correct ways to join a Teams meeting from your mobile device"
+  },
+  {
+    "question": "Which of the following is the recommended first step when creating a new Power BI project?",
+    "options": [
+      "Connect to data sources",
+      "Create reports",
+      "Build a data model",
+      "Publish to the Power BI service"
+    ],
+    "answer": "Connect to data sources"
+  },
+  {
+    "question": "How can you share your Power BI reports and dashboards with colleagues?",
+    "options": [
+      "Email the report or dashboard file as an attachment",
+      "Publish the reports and dashboards to the Power BI service and grant access",
+      "Copy and paste the report or dashboard into a Word document",
+      "Save the report or dashboard to a shared network drive"
+    ],
+    "answer": "Publish the reports and dashboards to the Power BI service and grant access"
+  },
+  {
+    "question": "How can you share a plan with others in Microsoft Planner?",
+    "options": [
+      "Email the plan as an attachment",
+      "Share the plan link and grant access to specific individuals or groups",
+      "Save the plan to a shared network drive",
+      "Export the plan as a PDF and distribute it"
+    ],
+    "answer": "Share the plan link and grant access to specific individuals or groups"
+  },
+  {
+    "question": "Which of the following is NOT a feature of Microsoft Planner?",
+    "options": [
+      "Creating and assigning tasks",
+      "Setting due dates and reminders for tasks",
+      "Integrating with other Microsoft 365 applications like Teams and Outlook",
+      "Automatically generating Gantt charts for project schedules"
+    ],
+    "answer": "Automatically generating Gantt charts for project schedules"
+  },
+  {
+    "question": "With using SharePoint Pro, what is the benefit of creating views in a list or library?",
+    "options": [
+      "It allows users to only see certain items in a list or library.",
+      "It allows users to edit items in a list or library.",
+      "It allows users to create new lists or libraries.",
+      "It allows users to change the theme of a list or library."
+    ],
+    "answer": "It allows users to only see certain items in a list or library."
+  },
+  {
+    "question": "What does banding of the rows in a list or library mean in SharePoint?",
+    "options": [
+      "Changing the font size of every other row",
+      "Adding borders to every other row",
+      "Alternating row fill color",
+      "Changing the text color of every other row"
+    ],
+    "answer": "Alternating row fill color"
+  },
+  {
+    "question": "What is the primary purpose of a Remote Access Trojan (RAT)?",
+    "options": [
+      "To launch distributed denial-of-service (DDoS) attacks on targeted systems",
+      "To encrypt files and demand a ransom payment for decryption",
+      "To gain unauthorized remote control over a compromised system",
+      "To spread itself to other systems on the network for widespread infection"
+    ],
+    "answer": "To gain unauthorized remote control over a compromised system"
+  },
+  {
+    "question": "Which of the following techniques is commonly used by attackers in voice phishing (vishing) attacks?",
+    "options": [
+      "Spoofing the caller ID to appear as a legitimate organization or authority",
+      "Sending large volumes of automated voice calls to randomly generated phone numbers",
+      "Exploiting software vulnerabilities in Voice over IP (VoIP) systems",
+      "Brute-forcing phone numbers to gain unauthorized access to voicemail systems"
+    ],
+    "answer": "Spoofing the caller ID to appear as a legitimate organization or authority"
+  },
+  {
+    "question": "Stir or shaken is best described as _______.",
+    "options": [
+      "Technology used to trace the origin of robocalls",
+      "A method the government uses to fine carriers who are not stringent enough on robocallers",
+      "A filter to block robocalls",
+      "A technology that overloads the robocallers with robocalls that prevents them from placing calls"
+    ],
+    "answer": "Technology used to trace the origin of robocalls"
+  },
+  {
+    "question": "What is the primary purpose of conducting regular vulnerability assessments and penetration testing?",
+    "options": [
+      "To comply with industry regulations and avoid potential fines",
+      "To identify and remediate security vulnerabilities before they can be exploited",
+      "To train employees on recognizing and responding to cyber threats",
+      "To implement new security solutions and technologies"
+    ],
+    "answer": "To identify and remediate security vulnerabilities before they can be exploited"
   }
 ]

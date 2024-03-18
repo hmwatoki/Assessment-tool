@@ -1,102 +1,202 @@
 [
   {
-    "question": "Who invented the telephone?",
+    "question": "A list that has a variety of different indentations to indicate sections of importance is called a ______________ list.",
     "options": [
-      "Thomas Edison",
-      "Alexander Graham Bell",
-      "Albert Einstein",
-      "Nikola Tesla"
+      "multiverse",
+      "styled",
+      "hierarchical", 
+      "multilevel"
     ],
-    "answer": "Alexander Graham Bell"
+    "answer": "multilevel"
   },
   {
-    "question": "What year was the first iPhone released?",
-    "options": ["2005", "2007", "2008", "2010"],
-    "answer": "2007"
-  },
-  {
-    "question": "What is the capital of Spain?",
-    "options": ["Barcelona", "Madrid", "Valencia", "Seville"],
-    "answer": "Madrid"
-  },
-  {
-    "question": "Which planet is known as the Red Planet?",
-    "options": ["Mars", "Mercury", "Venus", "Jupiter"],
-    "answer": "Mars"
-  },
-  {
-    "question": "What is the tallest mountain in the world?",
-    "options": ["K2", "Mount Everest", "Kilimanjaro", "Mount Fuji"],
-    "answer": "Mount Everest"
-  },
-  {
-    "question": "What is the largest ocean on Earth?",
+    "question": "Gaetano has a list of directors in his company that he started and would like to continue creating that list and continue numbering them. What is the procedure to restart or continue list numbering in Microsoft Word?",
     "options": [
-      "Atlantic Ocean",
-      "Indian Ocean",
-      "Arctic Ocean",
-      "Pacific Ocean"
+      "Use Autocorrect Options if available, or Set Numbering Value",
+      "You can only do this through Set Numbering Value",
+      "You can only do this through Autocorrect Options",
+      "You cannot adjust numbering values; it's automatically determined to be a new or continuous."
     ],
-    "answer": "Pacific Ocean"
+    "answer": "Use Autocorrect Options if available, or Set Numbering Value"
   },
   {
-    "question": "What is the largest mammal in the world?",
-    "options": ["Elephant", "Blue Whale", "Giraffe", "Polar Bear"],
-    "answer": "Blue Whale"
-  },
-  {
-    "question": "Which country is home to the kangaroo?",
-    "options": ["New Zealand", "South Africa", "Australia", "Canada"],
-    "answer": "Australia"
-  },
-  {
-    "question": "Which chemical element has the symbol 'O'?",
-    "options": ["Oxygen", "Osmium", "Oganesson", "Oxalate"],
-    "answer": "Oxygen"
-  },
-  {
-    "question": "What is the capital of Australia?",
-    "options": ["Sydney", "Melbourne", "Perth", "Canberra"],
-    "answer": "Canberra"
-  },
-  {
-    "question": "Who wrote the novel 'Moby-Dick'?",
+    "question": "Which of the following is true about themes in excel?",
     "options": [
-      "Herman Melville",
-      "Mark Twain",
-      "Ernest Hemingway",
-      "Charles Dickens"
+      "All workbooks use the Gallery theme by default",
+      "Themes control font and font size",
+      "Themes control font and color",
+      "New workbooks do not have any theme applied by default"
     ],
-    "answer": "Herman Melville"
+    "answer": "Themes control font and color"
   },
   {
-    "question": "Who was the first man to walk on the moon?",
+    "question": "Hannah is trying to upload data from a delimited text file into her spreadsheet. While viewing the preview, she notices that several empty columns were included along with the data. What should Hannah do to correct this problem?",
     "options": [
-      "Buzz Aldrin",
-      "Neil Armstrong",
-      "Michael Collins",
-      "Yuri Gagarin"
+      "Hannah can easily edit the extra columns out before loading the data to her workbook",
+      "Hannah did something incorrectly. She should close his spreadsheet and attempt to upload the data again",
+      "Hannah can edit the columns out but she must wait until she finishes the upload and the data is in her workbook",
+      "The data cannot be edited during the upload process or after; the extra columns can't be removed"
     ],
-    "answer": "Neil Armstrong"
+    "answer": "Hannah can easily edit the extra columns out before loading the data to her workbook"
   },
   {
-    "question": "In which year did World War II end?",
-    "options": ["1942", "1945", "1948", "1950"],
-    "answer": "1945"
-  },
-  {
-    "question": "What is the square root of 144?",
-    "options": ["12", "14", "16", "18"],
-    "answer": "12"
-  },
-  {
-    "question": "Which is the highest waterfall in the world?",
+    "question": "How can you schedule resources like projectors or laptops for a meeting in Outlook?",
     "options": [
-      "Niagara Falls",
-      "Victoria Falls",
-      "Angel Falls",
-      "Iguazu Falls"
+      "Click on the Advanced tab in the Search Tools menu.",
+      "Double-click on the required resources to add them to the meeting.",
+      "Contact the IT department to schedule resources separately.",
+      "Go to permissions for this document library."
     ],
-    "answer": "Angel Falls"
+    "answer": "Double-click on the required resources to add them to the meeting."
+  },
+  {
+    "question": "Jimmy needs to locate his contacts for a team meeting. How can Jimmy locate contacts in Outlook?",
+    "options": [
+      "By physically browsing through the contact list.",
+      "By sending an email to all contacts asking for the one you're looking for.", 
+      "By organizing contacts into folders based on their company names.",
+      "By using the Search bar and entering the contact's name or keywords."
+    ],
+    "answer": "By using the Search bar and entering the contact's name or keywords."
+  },
+  {
+    "question": "Jordan is adding pictures to his slideshow and looking for the perfect style to apply. The options found on the Format tab are not what he's looking for. What could help Jordan?",
+    "options": [
+      "He could download additional styles and try to find one he prefers",
+      "He could use the Help feature for assistance to find a style",
+      "He could select a style and change the picture border to his favorite color",
+      "He could customize his own style for his images"
+    ],
+    "answer": "He could customize his own style for his images"
+  },
+  {
+    "question": "Justin has created a slide show but has decided to showcase a portion of it. What can Justin do to accomplish this?",
+    "options": [
+      "He can delete all irrelevant slides in the Navigation Pane",
+      "He can apply a Grayscale to all irrelevant slides so that viewers know to ignore those slides",
+      "On the Slideshow tab, he can use the Custom Slide Show button to select which slides he would like to showcase",
+      "He can create a section for all the slides he wants to showcase and quickly turn it off once it has run its course"
+    ],
+    "answer": "On the Slideshow tab, he can use the Custom Slide Show button to select which slides he would like to showcase"
+  },
+  {
+    "question": "Jacob would like to modify his settings so that Microsoft Teams auto-starts when he boots up his computer. How can he accomplish this?",
+    "options": [
+      "Select either his profile picture or initials > Settings > Auto-start application",
+      "Select File from the top of the ribbon > Options > Start-up",
+      "There is no way to do this",
+      "Select either his profile picture or his initials > Options menu > Devices > Enable Automatic startup"
+    ],
+    "answer": "Select either his profile picture or initials > Settings > Auto-start application"
+  },
+  {
+    "question": "Marcus is viewing a document's version history but he does not see any tracked changes though he is sure that they exist. To solve this problem, Marcus should ______________________.",
+    "options": [
+      "create a new document using the previous one as a template",
+      "type /tracking into the search bar to make tracked changes visible",
+      "double-check that Show Changes is on",
+      "accuse his teammates of deleting the document's previous version"
+    ],
+    "answer": "double-check that Show Changes is on"
+  },
+  {
+    "question": "Oscar finished his Excel Spreadsheet for the Sales for this quarter. He wants to import it into SharePoint. Oscar opened Internet Explorer to do this due to the ActiveX not being compatible. What does he do next?",
+    "options": [
+      "New>Column",
+      "New>App>OneDrive",
+      "New>App>Import Spreadsheet",
+      "None of the Above"
+    ],
+    "answer": "New>App>Import Spreadsheet"
+  },
+  {
+    "question": "Frank wanted to make a Column to add a comment for new candidates in his resume library in SharePoint. He can do this by making a _______________.  ",
+    "options": [
+      "A List",
+      "A Library",
+      "A Yes/No Column",
+      "Multiple Line Column"
+    ],
+    "answer": "Multiple Line Column"
+  },
+  {
+    "question": "Which of the following is the most secure method for transmitting sensitive data over the internet?",
+    "options": [
+      "Sending the data via regular, unencrypted email",
+      "Uploading the data to a public cloud storage service", 
+      "Using a secure file transfer protocol with end-to-end encryption (e.g., SFTP, FTPS, or HTTPS)",
+      "Printing the data and sending it through regular mail"
+    ],
+    "answer": "Using a secure file transfer protocol with end-to-end encryption (e.g., SFTP, FTPS, or HTTPS)"
+  },
+  {
+    "question": "Once a person gains physical access into your building, what can they do that would be harmful to the security and data privacy of your company?",
+    "options": [
+      "Search through trash and look for important documentation left out in the open.",
+      "Plug in a USB rubber ducky",
+      "Sit at a desk where the person is logged in and walked away without locking their machine.",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "question": "Which of the following is the most effective way for a business to protect against ransomware attacks?",
+    "options": [
+      "Implementing regular data backups and having a solid recovery plan",
+      "Relying solely on antivirus software to detect and remove ransomware",
+      "Disabling all email attachments and downloads for employees",
+      "Paying the ransom demanded by the attackers to regain access to encrypted files"
+    ],
+    "answer": "Implementing regular data backups and having a solid recovery plan"
+  },
+  {
+    "question": "What is the primary purpose of implementing data encryption in a business environment?",
+    "options": [
+      "To prevent unauthorized access to sensitive data",
+      "To comply with industry regulations and standards",
+      "To improve network performance and speed up data transfer",
+      "To reduce the need for regular data backups"
+    ],
+    "answer": "To prevent unauthorized access to sensitive data"
+  },
+  {
+    "question": "What is the primary goal of a social engineer in a phishing attack?",
+    "options": [
+      "To gain unauthorized access to a computer system or network",
+      "To trick individuals into revealing sensitive information, such as login credentials or financial data", 
+      "To install malware on the target's computer or device",
+      "To carry out a distributed denial-of-service (DDoS) attack"
+    ],
+    "answer": "To trick individuals into revealing sensitive information, such as login credentials or financial data"
+  },
+  {
+    "question": "Which of the following is the most effective way to protect against social engineering attacks?",
+    "options": [
+      "Implementing strong technical controls, such as firewalls and antivirus software",
+      "Providing regular cybersecurity awareness training to employees",
+      "Outsourcing all customer-facing operations to a third-party service provider",
+      "Prohibiting the use of email and social media within the organization"
+    ],
+    "answer": "Providing regular cybersecurity awareness training to employees"
+  },
+  {
+    "question": "What is the term used to describe the practice of concealing malicious code within seemingly harmless programs or data in order to gain unauthorized access to a system?",
+    "options": [
+      "Spoofing",
+      "Phishing",
+      "Trojan Horse",
+      "Rootkit"
+    ],
+    "answer": "Trojan Horse"
+  },
+  {
+    "question": "What is the primary purpose of implementing the principle of \"least privilege\" in an organization's cybersecurity strategy?",
+    "options": [
+      "To ensure that all employees have equal access rights to systems and data",
+      "To restrict user access rights to only those necessary for their job functions",
+      "To allow administrators to override security controls when necessary",
+      "To simplify user account management by granting everyone administrative privileges"
+    ],
+    "answer": "To restrict user access rights to only those necessary for their job functions"
   }
 ]

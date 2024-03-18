@@ -60,17 +60,27 @@ body {
     margin: 5px 0; /* Reduce margin between header items */
     font-size: 14px; /* Adjust font size for smaller screens */
   }
-
-  #question {
-    font-size: 16px; /* Reduced font size for a more modern look */
-    color: #333; /* Updated to a darker shade for better readability */
-    font-weight: 400; /* Lighter font weight for a modern, clean look */
-    margin-top: 30px; /* Increased spacing above for better layout */
-    margin-bottom: 40px; /* Increased spacing below to separate from options */
-   }
+}
+#question {
+  font-size: 15px; /* Adjust the font size as desired */
+  color: #333; /* Updated to a darker shade for better readability */
+  font-weight: 400; /* Lighter font weight for a modern, clean look */
+  margin-top: 30px; /* Increased spacing above for better layout */
+  margin-bottom: 40px; /* Increased spacing below to separate from options */
+}
+#failure-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
-
+#failure-container h2:first-of-type {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1547BB;
+}
 #quiz-container,
 #start-page,
 #score-container,
@@ -79,22 +89,37 @@ body {
   width: 90%;
   max-width: 600px;
   background: #fff;
-  padding: 30px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   margin-top: 80px;
-}
-.centered-image {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 #success-container h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #27ae60;
   margin-bottom: 20px;
+}
+
+#success-container .centered-image {
+  max-width: 200px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  margin-bottom: 30px;
+}
+
+#success-container .section2-btn {
+  font-size: 18px;
+  padding: 12px 24px;
+  margin-top: 30px;
 }
 
 #progress-bar {
@@ -211,6 +236,7 @@ body {
   }
 
   #header h2 {
-    font-size: 14px;
+    font-size: 15px;
+    font-weight: 400;
   }
 }
