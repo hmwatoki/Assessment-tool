@@ -14,6 +14,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 #header {
@@ -28,7 +29,7 @@ body {
   align-items: center;
   justify-content: space-around; /* This distributes space evenly */
   height: 50px;
-  z-index: 1000; /* Increase this value, e.g., 1000 */
+  z-index: 1000;
   color: #fff;
   font-size: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -81,21 +82,23 @@ body {
   color: #1547BB;
 }
 #quiz-container,
-#start-page,
 #score-container,
 #failure-container,
 #success-container {
-  background-color: #f7f7f7e3;
-  color: #333;
+  width: 90%;
+  max-width: 600px;
+  background: #ffffffe3;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  /* Remove or modify the transition property */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  transition: box-shadow 0.3s ease; /* Keep the box-shadow transition */
   margin-top: 80px;
-  max-width: 600px;
-  margin: 0 auto;
-  position: relative; 
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
   z-index: 100;
 }
 
@@ -135,6 +138,15 @@ body {
 
 #success-container .section2-btn:hover {
   background-color: #3367d6;
+}
+#start-page {
+  width: 90%;
+  max-width: 250px;
+background: #fafafac0;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 #progress-bar {
