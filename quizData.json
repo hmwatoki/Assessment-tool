@@ -1,0 +1,202 @@
+[
+  {
+    "question": "When searching for text in Word, which option shows results from the document and the internet?",
+    "options": [
+      "The find button in the editing section of the Home tab",
+      "The navigation pane checkbox in the show section of the View tab",
+      "The search bar at the top of the window",
+      "The advanced find option accessed by clicking the arrow next to the Find button"
+    ],
+    "answer": "The search bar at the top of the window"
+  },
+  {
+    "question": "How do you copy and apply formatting to different text sections using the Format Painter?",
+    "options": [
+      "Right-click on the text and choose the Copy Format option",
+      "Select the text and press Ctrl+C",
+      "Click and drag the Format Painter across the desired text",
+      "Select the text and press Ctrl+V"
+    ],
+    "answer": "Right-click on the text and choose the Copy Format option"
+  },
+  {
+    "question": "Which Excel Ribbon tab allows you to add PivotTables, Charts, and Illustrations?",
+    "options": [
+      "Home",
+      "Data",
+      "Insert",
+      "Review"
+    ],
+    "answer": "Insert"
+  },
+  {
+    "question": "Which Microsoft Office feature helps automate a series of steps?",
+    "options": [
+      "Macros",
+      "Formula Painter",
+      "Formula Auditing",
+      "Zoom"
+    ],
+    "answer": "Macros"
+  },
+  {
+    "question": "How do you customize the ribbon view in Outlook for a compact layout?",
+    "options": [
+      "Click on the reading pane",
+      "Hover over the navigation pane",
+      "Use the toggle switch on the status bar",
+      "Click the arrow on the right side of the ribbon"
+    ],
+    "answer": "Click the arrow on the right side of the ribbon"
+  },
+  {
+    "question": "Which text formatting option can be applied to email messages in Outlook?",
+    "options": [
+      "Changing the email background to a picture.",
+      "Adding animations to text.",
+      "Changing font styles, colors, and highlighting.",
+      "Embedding videos within the email."
+    ],
+    "answer": "Changing font styles, colors, and highlighting."
+  },
+  {
+    "question": "What file type is created when you record a slide show in PowerPoint and select Save as Show?",
+    "options": [
+      ".ppt",
+      ".ppts",
+      ".ppsx",
+      ".pptshow"
+    ],
+    "answer": ".ppsx"
+  },
+  {
+    "question": "How can you number a list with Roman numerals in PowerPoint to complement a Roman theme?",
+    "options": [
+      "Switch to a theme that supports Roman numerals",
+      "Use photos of Roman numerals as bullet points",
+      "Manually type Roman numerals next to list items",
+      "Select the arrow next to Numbering and choose Roman numerals"
+    ],
+    "answer": "Select the arrow next to Numbering and choose Roman numerals"
+  },
+  {
+    "question": "How can Gary join a Team Meeting in Microsoft Teams?",
+    "options": [
+      "Using his Outlook Calendar",
+      "Using his Teams Calendar",
+      "Using the link that takes him to Teams on the Web",
+      "All of the Above"
+    ],
+    "answer": "All of the Above"
+  },
+  {
+    "question": "How does Benjamin add a channel in the Employee Benefits team in Microsoft Teams?",
+    "options": [
+      "Employee Benefits > More Options > Add Channel",
+      "Employee Benefits > More Options > Manage Team",
+      "Employee Benefits > More Options > Manage Tags",
+      "Employee Benefits > More Options > Edit Team"
+    ],
+    "answer": "Employee Benefits > More Options > Add Channel"
+  },
+  {
+    "question": "Where in Microsoft Teams would Gabriella set up an automatic reply for when she's out of the office?",
+    "options": [
+      "General Settings",
+      "Notifications",
+      "App Permissions",
+      "Privacy"
+    ],
+    "answer": "General Settings"
+  },
+  {
+    "question": "Why does Microsoft ask to keep you signed in when installing the Microsoft Teams Desktop app?",
+    "options": [
+      "Windows will automatically sign you in to your apps/websites",
+      "Windows will keep you signed into this app only",
+      "Windows will reduce the amount of times you are asked to log in",
+      "Both A and C"
+    ],
+    "answer": "Both A and C"
+  },
+  {
+    "question": "If Gilbert deleted a document in SharePoint, what did he find when he clicked the recycle bin?",
+    "options": [
+      "Nothing, deleted documents cannot be restored",
+      "He found the deleted document and was able to restore it",
+      "He found the deleted document, but could not restore it",
+      "None of the Above"
+    ],
+    "answer": "He found the deleted document and was able to restore it"
+  },
+  {
+    "question": "How does Jasper save a filtered employee list in SharePoint for future use?",
+    "options": [
+      "After filtering, Click on Filter > Edit Current view > Name the view > Save",
+      "You need to filter it every time you view the list",
+      "After filtering, Click on All Items > Save view as > Name the view > Save",
+      "He cannot save the filtered list"
+    ],
+    "answer": "After filtering, Click on All Items > Save view as > Name the view > Save"
+  },
+  {
+    "question": "Why is answering Facebook quizzes with personal information dangerous?",
+    "options": [
+      "You are helping potential hackers by giving them your personal information",
+      "These questions could be security questions that give access to personal accounts",
+      "Both A and B",
+      "None of the Above"
+    ],
+    "answer": "Both A and B"
+  },
+  {
+    "question": "What is the safest solution when using free Wi-Fi at a coffee shop?",
+    "options": [
+      "That's great! It's Free! Log on!",
+      "Log on but avoid banking or personal information",
+      "Use your own personal mobile hotspot",
+      "None of the Above"
+    ],
+    "answer": "Use your own personal mobile hotspot"
+  },
+  {
+    "question": "What is the term for using cloud-based solutions outside of those provided by your company?",
+    "options": [
+      "Shadow IT",
+      "BYOD",
+      "HIPPA",
+      "Microsoft 365"
+    ],
+    "answer": "Shadow IT"
+  },
+  {
+    "question": "What is the most common starting point for cyber attacks?",
+    "options": [
+      "A USB drive in the parking lot",
+      "A person impersonating a delivery or IT support person",
+      "A phishing email",
+      "A phone call"
+    ],
+    "answer": "A phishing email"
+  },
+  {
+    "question": "How do you compress multiple files into a zipped folder on Windows?",
+    "options": [
+      "Right-click on the files, select \"Send to\" > \"Compressed (zipped) folder\"",
+      "Left-click on the files, select \"File\" > \"Compress\"",
+      "Drag and drop the files into a pre-existing compressed folder",
+      "Use the Windows Search bar to find the \"Compress Files\" tool"
+    ],
+    "answer": "Right-click on the files, select \"Send to\" > \"Compressed (zipped) folder\""
+  },
+  {
+    "question": "What is the role of the UK's Information Commissioner's Office (ICO) regarding data protection?",
+    "options": [
+      "To provide internet services to the public.",
+      "To collect data from individuals and organizations for government use.",
+      "To uphold information rights, promote openness, and protect data privacy.",
+      "To design data protection software for businesses and organizations."
+    ],
+    "answer": "To uphold information rights, promote openness, and protect data privacy."
+  }
+ ]
