@@ -99,13 +99,12 @@ body {
   font-size: 20px;
 }
 
-#success-container h2 {
-  font-size: 20px;
+#success-container h2:first-of-type {
+  font-size: 24px;
   font-weight: 600;
   color: #0f9e4b;
   margin-bottom: 30px;
   text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 #success-container .centered-image {
