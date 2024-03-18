@@ -62,9 +62,9 @@ body {
   }
 }
 #question {
-  font-size: 15px; /* Adjust the font size as desired */
+  font-size: 16px; /* Adjust the font size as desired */
   color: #333; /* Updated to a darker shade for better readability */
-  font-weight: 400; /* Lighter font weight for a modern, clean look */
+  font-weight: 450; /* Lighter font weight for a modern, clean look */
   margin-top: 30px; /* Increased spacing above for better layout */
   margin-bottom: 40px; /* Increased spacing below to separate from options */
 }
@@ -101,9 +101,11 @@ body {
 
 #success-container h2 {
   font-size: 20px;
-  font-weight: 500;
-  color: #27ae60;
-  margin-bottom: 20px;
+  font-weight: 600;
+  color: #0f9e4b;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 #success-container .centered-image {
