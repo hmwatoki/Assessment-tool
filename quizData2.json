@@ -30,7 +30,7 @@
     "answer": "Themes control font and color"
   },
   {
-    "question": "Hannah is trying to upload data from a delimited text file into her spreadsheet. While viewing the preview, she notices that several empty columns were included along with the data. What should Hannah do to correct this problem?",
+    "question": "How can Hannah remove the empty columns that appeared while uploading a delimited text file into her spreadsheet?",
     "options": [
       "Hannah can easily edit the extra columns out before loading the data to her workbook",
       "Hannah did something incorrectly. She should close his spreadsheet and attempt to upload the data again",
