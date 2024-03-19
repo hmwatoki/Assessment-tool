@@ -87,7 +87,7 @@ body {
 #success-container {
   width: 90%;
   max-width: 600px;
-  
+  background: #ffffff60;
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -97,7 +97,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   position: relative;
-  backdrop-filter: blur(20px);
+  backdrop-filter: blur(16px);
   z-index: 100;
 }
 
@@ -139,6 +139,7 @@ body {
   background-color: #3367d6;
 }
 #start-page {
+  background: #ffffff62;
   width: 90%;
   max-width: 500px;
   backdrop-filter: blur(7px);
