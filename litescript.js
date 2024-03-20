@@ -49,7 +49,10 @@ const endQuiz = () => {
     document.getElementById("result-container").style.display = "block";
     const resultText = document.getElementById("result-text");
   
-    if (scorePercentage < 50) {
+    if (scorePercentage < 10) {
+      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Learning is key.`;
+      resultText.style.color = "#e74c3c"; // Red color
+    } else if (scorePercentage < 50) {
       resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Fair.`;
       resultText.style.color = "#e74c3c"; // Red color
     } else if (scorePercentage >= 50 && scorePercentage < 70) {
