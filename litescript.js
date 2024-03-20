@@ -46,17 +46,17 @@ const endQuiz = () => {
     const passThreshold = 0.7 * totalQuestions;
     const scorePercentage = (score / totalQuestions) * 100;
   
-    document.getElementById("success-container").style.display = "block";
+    document.getElementById("result-container").style.display = "block";
     const resultText = document.getElementById("result-text");
   
-    if (scorePercentage < 30) {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right. Remarks: Fair.`;
+    if (scorePercentage < 50) {
+      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Fair.`;
       resultText.style.color = "#e74c3c"; // Red color
-    } else if (scorePercentage >= 30 && scorePercentage < 70) {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right. Remarks: Good.`;
-      resultText.style.color = "#f1c40f"; // Yellow color
+    } else if (scorePercentage >= 50 && scorePercentage < 70) {
+      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Good.`;
+      resultText.style.color = "#FFA500"; // Orange color
     } else {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right. Remarks: Excellent.`;
+      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Excellent.`;
       resultText.style.color = "#27ae60"; // Green color
     }
   };
@@ -67,8 +67,6 @@ const restartQuiz = () => {
   document.getElementById("failure-container").style.display = "none";
   document.getElementById("start-page").style.display = "block";
 };
-
-document.getElementById("restart-btn").addEventListener("click", restartQuiz);
 
 // Event listeners for Start Quiz button and Next Question button
 document.getElementById("start-btn").addEventListener("click", startQuiz);
