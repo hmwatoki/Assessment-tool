@@ -5,13 +5,11 @@
 </head>
 <body>
     <div id="header">
-        <div class="header-texts"> <!-- Wrapper for text, improving layout control -->
+        <div class="header-texts">
             <h2>Your Score: <span id="score">0</span></h2>
-            <h2>Section 1: Essentials</h2>
+            <h2>Section <span id="current-section">1</span>: <span id="section-name">Essentials</span></h2>
         </div>
-        <!-- Other header elements here -->
     </div>
-    
     <div id="start-page">
         <button id="start-btn">Start assesment</button>
     </div>
@@ -32,20 +30,23 @@
     </div>
 
     <div id="failure-container" style="display: none">
-      <h2>Thank you for taking the assessment.</h2>
-      <h2> Based on our analysis, we suggest the Essentials pathway as the most suitable option to meet your requirements.</h2>
-      <!-- Add class `essentials-btn` -->
-      <button class="essentials-btn" onclick="window.location.href='placeholder-link.html'">Go to Pathway</button>
-      <!-- Ensure class `restart-btn` is used -->
-      <button class="restart-btn" id="restart-btn">Try Again</button>
-  </div>
+        <h2>Thank you for taking the assessment.</h2>
+        <h2 id="recommendation-text"></h2>
+        <button class="pathway-btn" id="pathway-btn">Go to Pathway</button>
+        <button class="restart-btn" id="restart-btn">Try Again</button>
+      </div>
   
-    <div id="success-container" style="display: none">
-        <h2>Congratulations on passing Section 1!</h2>
+      <div id="success-container" style="display: none">
+        <h2 id="success-heading">Congratulations on passing Section <span id="current-section">1</span>!</h2>
         <img src="congratulations.gif" alt="Congratulations" class="centered-image">
+        <button class="next-section-btn" id="next-section-btn">Proceed to Next Section</button>
+      </div>
 
-        <button class="section2-btn" onclick="window.location.href='index2.html'">Proceed to Section 2: Intermediate</button>
-    </div>
+  <div id="final-success-container" style="display: none">
+    <h2>Our sincere congratulations on passing all three levels of the assessment. Your accomplishment demonstrates a high level of competence. We thank you for your participation!</h2>
+    <img src="win.gif" alt="Congratulations" class="centered-image">
+    <button class="next-section-btn" onclick="window.location.href='https://barefootelearning.etraininglibrary.com/'">Return to portal</button>
+  </div>
 
     <script src="script.js"></script>
 </body>

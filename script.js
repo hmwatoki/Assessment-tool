@@ -1,17 +1,29 @@
 // Initialize the current question index, score, quiz data, user name, and selected option
+const sectionNames = ["Essentials", "Intermediate", "Advanced"];
 let currentQuestion = 0;
 let score = 0;
 let quizData = [];
+let currentSection = 1;
 let userName = "";
 let selectedOption = "";
 
-// Function to load quiz data from quizData.json file
-const loadQuizData = async () => {
-  const res = await fetch("quizData.json");
-  quizData = await res.json();
-  loadQuestion();
+const pathwayLinks = {
+  "Essentials": "essentials-link.html",
+  "Intermediate": "intermediate-link.html",
+  "Advanced": "advanced-link.html"
 };
 
+// Function to load quiz data from quizData.json file
+const loadQuizData = async () => {
+  const quizDataFile = `quizData${currentSection}.json`;
+  const res = await fetch(quizDataFile);
+  quizData = await res.json();
+  loadQuestion();
+  document.getElementById("current-section").innerText = currentSection;
+  document.getElementById("section-name").innerText = sectionNames[currentSection - 1];
+  document.getElementById("progress-bar-fill").style.width = "0%";
+  document.getElementById("progress-bar-text").innerText = "0%";
+};
 // Function to load the current question and options
 const loadQuestion = () => {
   const questionObj = quizData[currentQuestion];
@@ -43,19 +55,41 @@ const endQuiz = () => {
   document.getElementById("quiz-container").style.display = "none";
   const totalQuestions = quizData.length;
   const passThreshold = 0.7 * totalQuestions; // For example, 70% to pass
+
   if (score >= passThreshold) {
-    document.getElementById("success-container").style.display = "block";
+    if (currentSection === 3) {
+      document.getElementById("final-success-container").style.display = "block";
+    } else {
+      document.getElementById("success-container").style.display = "block";
+      document.getElementById("current-section").innerText = currentSection;
+      const successHeading = document.getElementById("success-heading");
+      successHeading.innerText = `Congratulations on passing Section ${currentSection}: ${sectionNames[currentSection - 1]}!`;
+    }
   } else {
     document.getElementById("failure-container").style.display = "block";
+    const recommendationText = document.getElementById("recommendation-text");
+    const pathwayBtn = document.getElementById("pathway-btn");
+    if (currentSection === 1) {
+      recommendationText.innerText = "Based on our analysis, we suggest the Essentials pathway as the most suitable option to meet your requirements.";
+      pathwayBtn.onclick = () => window.location.href = pathwayLinks["Essentials"];
+    } else if (currentSection === 2) {
+      recommendationText.innerText = "Our evaluation indicates that the Intermediate pathway would be the most appropriate choice for you.";
+      pathwayBtn.onclick = () => window.location.href = pathwayLinks["Intermediate"];
+    } else if (currentSection === 3) {
+      recommendationText.innerText = "Our evaluation indicates the Advanced pathway is the most appropriate option to challenge your existing skills.";
+      pathwayBtn.onclick = () => window.location.href = pathwayLinks["Advanced"];
+    }
   }
 };
-
 const restartQuiz = () => {
   currentQuestion = 0;
   score = 0;
   document.getElementById("score").innerText = "0";
   document.getElementById("failure-container").style.display = "none";
   document.getElementById("start-page").style.display = "block";
+  document.getElementById("progress-bar-fill").style.width = "0%";
+  document.getElementById("progress-bar-text").innerText = "0%";
+  loadQuizData();
 };
 
 document.getElementById("restart-btn").addEventListener("click", restartQuiz);
@@ -102,6 +136,16 @@ for (let i = 0; i < 4; i++) {
     document.getElementById("next-btn").style.display = "block";
   });
 }
+// Event Listener for the "Next Section" button
+document.getElementById("next-section-btn").addEventListener("click", () => {
+  currentSection++;
+  document.getElementById("success-container").style.display = "none";
+  document.getElementById("quiz-container").style.display = "block";
+  currentQuestion = 0;
+  score = 0;
+  document.getElementById("score").innerText = "0";
+  loadQuizData();
+});
 
 // Event listener for the "Skip" button
 document.getElementById("skip-btn").addEventListener("click", () => {
