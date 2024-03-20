@@ -195,6 +195,12 @@ body {
   background-color: #3367d6;
 }
 
+#result-text {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
 #start-page {
   background: #ffffff62;
   width: 90%;
@@ -276,6 +282,7 @@ body {
 }
 
 .option-btn:hover,
+.book-btn:hover,
 #start-btn:hover,
 #highscore-btn:hover,
 #next-btn:hover {
@@ -343,6 +350,68 @@ body {
   background: #2980b9;
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#result-container {
+  width: 90%;
+  max-width: 600px;
+  background: #ffffff60;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+  margin-top: 80px;
+  font-weight: 400;
+  font-size: 20px;
+  position: relative;
+  backdrop-filter: blur(16px);
+  z-index: 100;
+}
+
+#result-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1547BB;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+#result-container p {
+  font-size: 18px;
+  color: #333333;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+#result-container .result-image {
+  max-width: 200px;
+  margin-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease;
+}
+
+#result-container .result-image:hover {
+  transform: scale(1.1);
+}
+
+#result-container .book-btn {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px 24px;
+  margin-top: 30px;
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#result-container .book-btn:hover {
+  background-color: #3367d6;
 }
 
 @media (max-width: 768px) {
