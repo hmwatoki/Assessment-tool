@@ -57,7 +57,7 @@ const endQuiz = () => {
       resultText.style.color = "#e74c3c"; // Red color
     } else if (scorePercentage >= 50 && scorePercentage < 70) {
       resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Good.`;
-      resultText.style.color = "#FFA500"; // Orange color
+      resultText.style.color = "#FF8C00"; // Orange color
     } else {
       resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Excellent.`;
       resultText.style.color = "#27ae60"; // Green color
