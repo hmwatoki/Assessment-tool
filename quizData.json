@@ -1,0 +1,102 @@
+[
+    {
+      "question": "In Microsoft Word, what feature allows multiple users to edit a document simultaneously and see each other's changes in real-time?",
+      "options": [
+        "Comments",
+        "Track Changes",
+        "Real-time Collaboration",
+        "Document Sharing"
+      ],
+      "answer": "Real-time Collaboration"
+    },
+   {
+    "question": "How can you change the orientation of a single page within a Microsoft Word document without affecting the rest of the document?",
+    "options": [
+      "Section Breaks",
+      "Page Setup",
+      "Cannot be done",
+      "Right-click Page"
+    ],
+    "answer": "Section Breaks"
+  },
+    {
+      "question": "What feature in Excel allows you to transform and clean data from various sources before importing it into your workbook?",
+      "options": [
+        "Data Validation",
+        "Conditional Formatting",
+        "Power Query",
+        "PivotTable"
+      ],
+      "answer": "Power Query"
+    },
+    {
+      "question": "How can you apply a color scale formatting that visually represents the values in a range of cells with different colors in Excel?",
+      "options": [
+        "Use the \"Format Painter\" tool on the range.",
+        "Apply a \"Color Scale\" from the Conditional Formatting options.",
+        "Change the font color manually based on the cell values.",
+        "Use the \"Paint Bucket\" tool to fill each cell."
+      ],
+      "answer": "Apply a \"Color Scale\" from the Conditional Formatting options."
+    },
+    {
+      "question": "When you want to ensure that messages from a specific sender always go to a particular folder in Microsoft Outlook, what feature should you use?",
+      "options": [
+        "Sweep",
+        "Clutter",
+        "Rules",
+        "Focus Inbox"
+      ],
+      "answer": "Rules"
+    },
+    {
+      "question": "In Microsoft Outlook, how can you share your calendar with a colleague so they can view your availability but not edit your appointments?",
+      "options": [
+        "Right-click on your calendar, select \"Share Calendar,\" and choose \"Can view when I'm busy\"",
+        "Go to the File tab, select \"Account Settings,\" and then \"Delegate Access\"",
+        "From your calendar, drag and drop appointments into an email to your colleague",
+        "Go to the Calendar view, select \"Email Calendar,\" and choose your colleague's email address"
+      ],
+      "answer": "Right-click on your calendar, select \"Share Calendar,\" and choose \"Can view when I'm busy\""
+    },
+    {
+      "question": "What is the purpose of channels within a Microsoft Teams team?",
+      "options": [
+        "To provide private chat spaces for sensitive information sharing.",
+        "To organize conversations, files, and tools around specific topics or projects within a team.",
+        "To schedule meetings and calls for team members.",
+        "To act as a repository for team members' personal files and data."
+      ],
+      "answer": "To organize conversations, files, and tools around specific topics or projects within a team."
+    },
+    {
+      "question": "How can you share a file with attendees during a Microsoft Teams meeting?",
+      "options": [
+        "Attach the file to the meeting invitation.",
+        "Share your screen and open the file.",
+        "Use the chat function to send the file to attendees during the meeting.",
+        "Files cannot be shared directly in Teams meetings; they must be emailed separately."
+      ],
+      "answer": "Use the chat function to send the file to attendees during the meeting."
+    },
+    {
+      "question": "What is the most secure way to manage your passwords?",
+      "options": [
+        "Use the same strong password across all your accounts for easy recall.",
+        "Write down your passwords in a notebook kept in a secure location.",
+        "Use a different password for each account and store them using a reputable password manager.",
+        "Regularly change your passwords every month, using simple variations like adding numbers at the end."
+      ],
+      "answer": "Use a different password for each account and store them using a reputable password manager."
+    },
+    {
+      "question": "Which of the following characteristics is most indicative of a spear-phishing email targeting an individual within a specific company?",
+      "options": [
+        "The email contains an urgent request to click on a link to verify account information due to suspicious activity.",
+        "The email appears to come from a senior executive within the company and requests confidential information related to a project the individual is known to be working on.",
+        "The email offers a free software update for a commonly used program within the company to improve security.",
+        "The email is from an external vendor requesting the completion of a satisfaction survey with a link to the form."
+      ],
+      "answer": "The email appears to come from a senior executive within the company and requests confidential information related to a project the individual is known to be working on."
+    }
+   ]

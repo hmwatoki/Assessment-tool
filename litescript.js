@@ -7,7 +7,7 @@ let selectedOption = "";
 
 // Function to load quiz data from quizData.json file
 const loadQuizData = async () => {
-  const res = await fetch("quizData1.json");
+  const res = await fetch("quizData.json");
   quizData = await res.json();
   loadQuestion();
 };
@@ -49,7 +49,7 @@ const endQuiz = () => {
     document.getElementById("result-container").style.display = "block";
     const resultText = document.getElementById("result-text");
   
-    if (scorePercentage < 10) {
+    if (scorePercentage < 30) {
       resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Learning is key.`;
       resultText.style.color = "#e74c3c"; // Red color
     } else if (scorePercentage < 50) {
