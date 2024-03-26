@@ -202,10 +202,10 @@ body {
 }
 
 #start-page {
-  background: #ffffff62;
+  background: #ffffffb7;
   width: 90%;
   max-width: 500px;
-  backdrop-filter: blur(7px);
+  backdrop-filter: blur(12px);
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -217,20 +217,18 @@ body {
 }
 
 #start-page h1 {
-  font-size: 32px;
+  font-size: 22px;
   color: #1547BB;
   margin-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 #start-page p {
   font-size: 18px;
-  color: #f3f3f3f1;
+  color: #333333;
   margin-bottom: 40px;
   line-height: 1.6;
 }
-
 #start-btn {
   background-color: #1547BB;
   color: #fffffff6;
@@ -412,6 +410,10 @@ body {
 
 #result-container .book-btn:hover {
   background-color: #3367d6;
+}
+.book-text {
+  font-size: 12px;
+  color: #666666; /* Lighter color for the text */
 }
 
 @media (max-width: 768px) {
