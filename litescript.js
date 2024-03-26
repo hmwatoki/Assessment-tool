@@ -50,17 +50,17 @@ const endQuiz = () => {
     const resultText = document.getElementById("result-text");
   
     if (scorePercentage < 30) {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Learning is key.`;
-      resultText.style.color = "#e74c3c"; // Red color
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      remarks.innerText = "REMARKS: LEARNING IS KEY.";
     } else if (scorePercentage < 50) {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Fair.`;
-      resultText.style.color = "#e74c3c"; // Red color
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      remarks.innerText = "REMARKS: FAIR.";
     } else if (scorePercentage >= 50 && scorePercentage < 70) {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Good.`;
-      resultText.style.color = "#FF8C00"; // Orange color
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      remarks.innerText = "REMARKS: GOOD.";
     } else {
-      resultText.innerText = `You got ${scorePercentage.toFixed(0)}% of the questions right.\nRemarks: Excellent.`;
-      resultText.style.color = "#27ae60"; // Green color
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      remarks.innerText = "REMARKS: EXCELLENT.";
     }
   };
 const restartQuiz = () => {

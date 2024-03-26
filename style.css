@@ -1,20 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 body {
-  background: #f6f4f8;
-  background-image: url("bG.jpg");
-  background-size: cover;
-  background-position: center;
-  color: #333333;
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  overflow: hidden; /* Hide any content that exceeds the viewport */
+  background: #f6f4f8 url("bG.png") no-repeat center center fixed;
+  background-size: cover; /* Scale the background image to cover the entire element */
   font-family: "Montserrat", sans-serif;
+  color: #333333;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: auto;
 }
 
 #header {
@@ -33,6 +31,7 @@ body {
   color: #fff;
   font-size: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none;
 }
 .header-texts {
   display: flex;
@@ -86,18 +85,20 @@ body {
 #failure-container,
 #success-container {
   width: 90%;
-  max-width: 600px;
-  background: #ffffff60;
+  max-width: 550px;
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value (0.2) for desired transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur value for desired glassy effect */
   padding: 40px;
   border-radius: 8px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   text-align: center;
-  transition: box-shadow 0.3s ease; /* Keep the box-shadow transition */
-  margin-top: 80px;
+  transition: box-shadow 0.3s ease;
   font-weight: 400;
   font-size: 20px;
-  position: relative;
-  backdrop-filter: blur(16px);
+  position: absolute; /* Position the container absolutely */
+  top: 50%; /* Position the container vertically in the center */
+  left: 50%; /* Position the container horizontally in the center */
+  transform: translate(-50%, -50%); /* Adjust the container position based on its own dimensions */
   z-index: 100;
 }
 
@@ -202,40 +203,48 @@ body {
 }
 
 #start-page {
-  background: #ffffffb7;
   width: 90%;
   max-width: 500px;
-  backdrop-filter: blur(12px);
   padding: 40px;
   border-radius: 12px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
-
 #start-page h1 {
-  font-size: 22px;
-  color: #1547BB;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
+  font-size: 28px; /* Increase the font size */
+  font-weight: 500;
+  color: #1447BA ;
+  text-align: center;
+  margin-bottom: 7px; /* Reduce the margin between the lines */
+  line-height: 1.2; /* Add some line-height for better spacing */
 }
-
+#start-page h2 {
+  font-size: 28px; /* Increase the font size */
+  font-weight: 600;
+  color: #1447BA ;
+  text-align: center;
+  margin-top: 7px; /* Reduce the margin between the lines */
+  line-height: 1.2; /* Add some line-height for better spacing */
+}
 #start-page p {
-  font-size: 18px;
-  color: #333333;
-  margin-bottom: 40px;
-  line-height: 1.6;
+  font-size: 17px;
+  font-weight: 500;
+  color: #1447BA ;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.4; /* Add some line-height for better spacing */
 }
 #start-btn {
-  background-color: #1547BB;
+  background-color:  #ff6347;
   color: #fffffff6;
   padding: 14px 30px;
   border: none;
-  border-radius: 30px;
-  font-size: 18px;
+  border-radius: 50px;
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -243,7 +252,7 @@ body {
 }
 
 #start-btn:hover {
-  background-color: #0f3699;
+  background-color:  #e55330;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
   transform: translateY(-2px);
 }
@@ -265,7 +274,7 @@ body {
   transition: width 0.5s ease-in-out;
 }
 .option-btn,
-#start-btn,
+
 #highscore-btn,
 #next-btn {
   background-color: #3498db;
@@ -281,7 +290,6 @@ body {
 
 .option-btn:hover,
 .book-btn:hover,
-#start-btn:hover,
 #highscore-btn:hover,
 #next-btn:hover {
   background: #2980b9;
@@ -352,68 +360,62 @@ body {
 
 #result-container {
   width: 90%;
-  max-width: 600px;
-  background: #ffffff60;
+  max-width: 800px;
   padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
   text-align: center;
-  transition: box-shadow 0.3s ease;
-  margin-top: 80px;
-  font-weight: 400;
-  font-size: 20px;
-  position: relative;
-  backdrop-filter: blur(16px);
-  z-index: 100;
+  margin: 80px auto;
+  font-family: Arial, sans-serif;
+  color: #333333;
+  display: none; /* Initially hidden */
 }
 
-#result-container h2 {
-  font-size: 24px;
-  font-weight: 600;
-  color: #1547BB;
-  margin-bottom: 20px;
+#result-container h2#result-text {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
   line-height: 1.4;
+  text-transform: uppercase;
+  color: #1547BB;
+}
+
+#result-container h3#remarks {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #1547BB;
 }
 
 #result-container p {
-  font-size: 18px;
-  color: #333333;
-  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #1447BA ;
+  margin-bottom: 20px;
   line-height: 1.6;
 }
 
-#result-container .result-image {
-  max-width: 200px;
-  margin-bottom: 30px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: transform 0.3s ease;
-}
-
-#result-container .result-image:hover {
-  transform: scale(1.1);
+#result-container .book-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1447BA ;
 }
 
 #result-container .book-btn {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: bold;
   padding: 12px 24px;
   margin-top: 30px;
-  background-color: #4285f4;
-  color: #fff;
+  background-color: #FF6347;
+  color: #ffffff;
   border: none;
-  border-radius: 4px;
+  border-radius: 30px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 #result-container .book-btn:hover {
-  background-color: #3367d6;
-}
-.book-text {
-  font-size: 12px;
-  color: #666666; /* Lighter color for the text */
+  background-color: #E55330;
 }
 
 @media (max-width: 768px) {
