@@ -90,7 +90,7 @@ body {
 #success-container {
  width: 90%;
  max-width: 550px;
- background-color: rgba(255, 255, 255, 0.8); 
+ background-color: rgba(255, 255, 255, 0.404);
  padding: 40px;
  border-radius: 8px;
  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -485,4 +485,32 @@ body {
 
 #result-container .book-btn:hover {
  background-color: #E55330;
+}
+
+#logo-container {
+  position: fixed;
+  bottom: 40px;
+  right: 50px;
+  z-index: 1000;
+}
+
+#logo-container img {
+  width: 250px;
+  height: auto;
+  max-width: 80%; /* Add this line */
+  max-height: 80%; /* Add this line */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  #logo-container {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  #logo-container img {
+    width: 150px;
+    max-width: 60%;
+    max-height: 60%;
+  }
 }
