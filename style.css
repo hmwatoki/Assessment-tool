@@ -7,7 +7,7 @@ body {
   height: 100vh; /* Set the height to 100% of the viewport height */
   width: 100vw; /* Set the width to 100% of the viewport width */
   overflow: hidden; /* Hide any content that exceeds the viewport */
-  background: #f6f4f8 url("bG.png") no-repeat center center fixed;
+  background: #f6f4f8 url("BG.png") no-repeat center center fixed;
   background-size: cover; /* Scale the background image to cover the entire element */
   font-family: 'Open Sans', sans-serif;
   color: #333333;
