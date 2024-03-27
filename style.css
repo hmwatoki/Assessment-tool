@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
  margin: 0;
@@ -9,7 +8,7 @@ body {
  overflow: hidden;
  background: #f6f4f8 url("BG.png") no-repeat center center fixed;
  background-size: cover;
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Montserrat', sans-serif;
  color: #333333;
  display: flex;
  align-items: center;
@@ -90,7 +89,7 @@ body {
 #success-container {
  width: 90%;
  max-width: 550px;
- background-color: rgba(255, 255, 255, 0.404);
+ background-color: rgba(255, 255, 255, 0.8);
  padding: 40px;
  border-radius: 8px;
  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
@@ -262,7 +261,7 @@ body {
 
 #start-page p {
  font-size: 17px;
- font-weight: 600;
+ font-weight: 500;
  color: #1447BA;
  text-align: center;
  margin-bottom: 30px;

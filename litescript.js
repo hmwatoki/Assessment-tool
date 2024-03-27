@@ -51,16 +51,20 @@ const endQuiz = () => {
   
     if (scorePercentage < 30) {
       resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
-      remarks.innerText = "REMARKS: LEARNING IS KEY.";
+      remarks.innerText = "REMARKS: Low knowledge";
+      comments.innerText = "Learning is key.";
     } else if (scorePercentage < 50) {
       resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
-      remarks.innerText = "REMARKS: FAIR.";
+      remarks.innerText = "REMARKS: Fair knowledge.";
+      comments.innerText = "You're making progress, but there's room for growth.";
     } else if (scorePercentage >= 50 && scorePercentage < 70) {
       resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
-      remarks.innerText = "REMARKS: GOOD.";
+      remarks.innerText = "REMARKS: Good knpowledge.";
+      comments.innerText = "Well done! You have a solid understanding. Continue building on this foundation.";
     } else {
       resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
-      remarks.innerText = "REMARKS: EXCELLENT.";
+      remarks.innerText = "REMARKS: Excellent knowledge.";
+      comments.innerText = "Its time to learn some new skills.";
     }
   };
 const restartQuiz = () => {
