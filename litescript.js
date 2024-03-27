@@ -50,16 +50,16 @@ const endQuiz = () => {
     const resultText = document.getElementById("result-text");
   
     if (scorePercentage < 30) {
-      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
       remarks.innerText = "REMARKS: LEARNING IS KEY.";
     } else if (scorePercentage < 50) {
-      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
       remarks.innerText = "REMARKS: FAIR.";
     } else if (scorePercentage >= 50 && scorePercentage < 70) {
-      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
       remarks.innerText = "REMARKS: GOOD.";
     } else {
-      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You got <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
+      resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
       remarks.innerText = "REMARKS: EXCELLENT.";
     }
   };

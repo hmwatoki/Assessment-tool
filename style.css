@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 body {
   margin: 0;
@@ -8,7 +9,7 @@ body {
   overflow: hidden; /* Hide any content that exceeds the viewport */
   background: #f6f4f8 url("bG.png") no-repeat center center fixed;
   background-size: cover; /* Scale the background image to cover the entire element */
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333333;
   display: flex;
   align-items: center;
@@ -216,7 +217,7 @@ body {
 }
 #start-page h1 {
   font-size: 28px; /* Increase the font size */
-  font-weight: 500;
+  font-weight: 400;
   color: #1447BA ;
   text-align: center;
   margin-bottom: 7px; /* Reduce the margin between the lines */
@@ -224,7 +225,7 @@ body {
 }
 #start-page h2 {
   font-size: 28px; /* Increase the font size */
-  font-weight: 600;
+  font-weight: 700;
   color: #1447BA ;
   text-align: center;
   margin-top: 7px; /* Reduce the margin between the lines */
@@ -232,7 +233,7 @@ body {
 }
 #start-page p {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
   color: #1447BA ;
   text-align: center;
   margin-bottom: 30px;
@@ -365,7 +366,7 @@ body {
   border-radius: 20px;
   text-align: center;
   margin: 80px auto;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333333;
   display: none; /* Initially hidden */
 }
@@ -381,7 +382,7 @@ body {
 
 #result-container h3#remarks {
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 20px;
   text-transform: uppercase;
   color: #1547BB;
@@ -389,7 +390,7 @@ body {
 
 #result-container p {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #1447BA ;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -397,7 +398,7 @@ body {
 
 #result-container .book-text {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #1447BA ;
 }
 
