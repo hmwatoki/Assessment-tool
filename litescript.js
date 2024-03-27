@@ -59,7 +59,7 @@ const endQuiz = () => {
       comments.innerText = "You're making progress, but there's room for growth.";
     } else if (scorePercentage >= 50 && scorePercentage < 70) {
       resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
-      remarks.innerText = "REMARKS: Good knpowledge.";
+      remarks.innerText = "REMARKS: Good knowledge.";
       comments.innerText = "Well done! You have a solid understanding. Continue building on this foundation.";
     } else {
       resultText.innerHTML = `Thank you for taking our initial assessment.<br>You scored <strong>${scorePercentage.toFixed(0)}%</strong> of the questions right.`;
